@@ -55,9 +55,8 @@ The application fails to enforce proper server-side authorization checks to veri
 ---
 
 ### Screenshot Evidence
-![alt text](<Screenshot 2026-05-14 111300.png>)
-![alt text](<Screenshot 2026-05-14 111420.png>)
-
+![Screenshot](./screenshots/Screenshot%202026-05-14%20111300.png)
+![Screenshot](./screenshots/Screenshot%202026-05-14%20111420.png)
 ---
 
 ### QA Test Case Recommendation
@@ -98,8 +97,7 @@ The application appears to be vulnerable to SQL Injection due to improper input 
 ---
 
 ### Screenshot Evidence
-![alt text](<Screenshot 2026-05-14 130704.png>)
-
+![Screenshot](./screenshots/Screenshot%202026-05-14%20130704.png)
 ---
 
 ### QA Test Case Recommendation
@@ -162,7 +160,7 @@ In a real-world application, such exposure could lead to information disclosure,
 
 
 ### Screenshot
-![alt text](<Screenshot 2026-05-15 102621.png>)
+![Screenshot](./screenshots/Screenshot%202026-05-15%20102621.png)
 
 ---
 
@@ -188,8 +186,7 @@ In a real-world application, this could result in unauthorized access, privilege
 
 
 ### Screenshot
-![alt text](<Screenshot 2026-05-15 102740.png>)
-
+![Screenshot](./screenshots/Screenshot%202026-05-15%20102740.png)
 ---
 
 ## High-Risk Files That Could Be Used to Compromise the System
@@ -246,7 +243,7 @@ The application relies on an outdated third-party dependency (`multer ~1.3`) tha
 The exposure of `package.json.bak` further increases the risk by allowing attackers to identify exact dependency versions and map them against known vulnerabilities for targeted exploitation.
 
 ### Screenshot Evidence
-![alt text](<Screenshot 2026-05-15 104222.png>)
+![Screenshot](./screenshots/Screenshot%202026-05-15%20104222.png)
 
 ---
 
@@ -294,8 +291,8 @@ The application fails to enforce proper server-side business validation for prod
 ---
 
 ### Screenshot Evidence
-![alt text](<Screenshot 2026-05-14 123236.png>)
-![alt text](<Screenshot 2026-05-14 123644.png>)
+![Screenshot](./screenshots/Screenshot%202026-05-14%20123236.png)
+![Screenshot](./screenshots/Screenshot%202026-05-14%20123644.png)
 
 ---
 
