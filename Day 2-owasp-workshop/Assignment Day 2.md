@@ -38,8 +38,6 @@ Similarly, in the Command Injection assessment, an automated tool might have det
 Choose the single most critical finding from your assessment. Explain it as if you are presenting it to the CEO who has no technical background.
 
 ### Answer
-The most critical finding identified during the assessment was the OS Command Injection vulnerability.
-
 The most critical finding identified during the assessment was the SQL Injection vulnerability that allowed unauthorized database data extraction.
 
 In my view, this had the highest impact on the overall security of the application because it allowed direct access to sensitive user information stored in the backend database. By executing carefully crafted SQL queries, an attacker could retrieve usernames, password hashes, and potentially other confidential application data without proper authorization. Since the passwords were protected using weak hashing methods rather than stronger modern encryption or hashing practices, the risk became even more severe, as attackers could potentially crack the credentials and gain unauthorized access to user accounts.
